@@ -122,8 +122,6 @@ h4 {
 }
 
 .tech-icon {
-    width: 32px;
-    min-height: 32px;
     object-fit: contain;
     margin: 8px 0 0 12px;
     transition: 300ms;
@@ -156,8 +154,27 @@ h4 {
     font-size: 24px;
     font-family: 'Poppins';
 }
+
+@media (max-width:1200px) {
+    h1.name {
+        text-align: center;
+    }
+    .tech-icon {
+        width: 10%!important;
+        min-height: 10% !important;
+    }
+}
+
 @media (max-width: 620px) {
+    .tech-icon {
+        width: 20%!important;
+        min-height: 20% !important;
+    }
+    .home {
+        padding: 0 !important;
+    }
     .text-home {
-        width: 100vw;
+        text-align: center;
+        width: 100vw!important;
     }
 }
