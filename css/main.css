@@ -6,6 +6,22 @@
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .bg-nav {
     border-bottom: solid 1px #3f3f3f;
 }
