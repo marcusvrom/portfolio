@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Marcus Romano - Portfolio</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent bg-nav">
+            <div class="container-fluid">
+              <a class="logo-text" href="#">Marcus R.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav d-flex align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#about">Sobre Mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projetos</a>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <img src="assets/img/discord.svg" class="discord-nav-icon" alt="" srcset=""><a class="nav-link" href="#projects">M4rs#6773</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid d-flex mt-4 navbar-dark" style="color: white">
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 text-home mt-2 d-flex align-items-center justify-content-center flex-column">
+                    <h4>Olá, meu nome é</h4>
+                    <h1 class="name">MARCUS ROMANO</h1>
+                    <h5>Sou desenvolvedor web fullstack, gostaria de ver meus projetos?</h4>
+                    <a href="#projects" class="btn btn-light p-3 btn-portfolio mt-2">Ver Projetos</a>
+                    <h4>Principais Tecnologias</h4>
+                    <div class="tech-list row mt-2 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/react.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/angular.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/js.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/ts.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/spring.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/java.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/postgres.svg" class="col-xl-1 tech-icon">
+                        <img src="assets/img/git.svg" class="col-xl-1 tech-icon">
+                    </div>
+                </div>
+    
+                <section id="about" class="col-12 about mt-4 pt-5">
+                        <h1>Sobre Mim</h1>
+                        <p>Atualmente cursando Análise e Desenvolvimento de Sistemas
+                        Fui estágiario no Centro de Pesquisas em Informática (CEPEIN) na Fundação Educacional do Município de Assis - FEMA
+                        Desenvolvi sistemas para o portal acadêmico da faculdade, utilizando tecnologias como Spring Boot, Angular, Bootstrap etc.
+    
+                        Atualmente aprendendo e aprofundando os conhecimentos em <strong>ReactJS</strong>  e React Native
+                        Pretendo continuar estudando mais tecnologias como por exemplo React que tenho muito interesse em aprender e adquirir expriência. Também pretendo estudar tecnologias que auxiliam na acessibilidade dos sistemas.
+    
+                        Freelas
+                        Já realizei trabalhos para a empresa Owl Tecnologia como o desenvolvimento do site da empresa , também fiz o design de todas as imagens existentes nesse mesmo site. Desenvolvi outros trabalhos como por exemplo uma página de termos de serviço para um aplicativo móvel.
+    
+                        Curiosidade
+                        Quando mais novo eu sempre quis ser designer e fugia de aprender a programar, mas quando descobri que podia fazer interfaces e vi toda a interatividade que poderia desenvolver nos meus sistemas, comecei a me apaixonar por codar, me sinto cada vez mais confortável desenvolvendo (e continuo amando design também kkkk), meu objetivo é sempre aprender mais e conseguir levar até o usuário uma experiência funcional e agradável.
+    
+                        Entre em contato comigo!</p> 
+                </section>
+
+                <section id="projects" class="col-12 projects mt-4 pt-2 d-flex flex-column">
+                    <h1>Projetos</h1>
+                    <div class="card bg-dark mt-4 mb-3">
+                        <h3 class="card-title text-center bg-dark mt-4">
+                            Kiskadee Website
+                        </h3>
+                        <p class="card-body text-center d-flex flex-column align-items-center justify-content-center p-0">
+                            Site para Squad de Devs Freelance.
+                            <a class="btn btn-light btn-portfolio mt-3 mb-3" href="https://kiskadee.dev.br" style="width: 300px!important;">Acessar</a>
+                        </p>
+                    </div>
+                    <div class="card bg-dark mb-3">
+                        <h3 class="card-title text-center bg-dark mt-4">
+                            Owl Website
+                        </h3>
+                        <p class="card-body text-center d-flex flex-column align-items-center justify-content-center p-0">
+                            Site para Empresa de Soluções em Cloud.
+                            <a class="btn btn-light btn-portfolio mt-3 mb-3" href="https://owl.tec.br" style="width: 300px!important;">Acessar</a>
+                        </p>
+                    </div>
+                    <a class="btn btn-light btn-portfolio mt-3 mb-3" href="https://github.com/marcusvrom" style="width: 100%!important;">Para visualizar todos os meus projetos, clique aqui e acesse meu GitHub!</a>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

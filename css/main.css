@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-nav {
+    border-bottom: solid 1px #3f3f3f;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(27, 27, 27), #1b1b1b), url(../assets/img/background.png);
+    padding: 0 10% 10%;
+    position: relative;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Quicksand';
+    font-size: 24px;
+    transition: 300ms;
+}
+
+.logo-text:hover {
+    transform: scale(0.99);
+    color: #c1c1c1;
+}
+
+.logo-text:after {
+    display: block;
+    content: '';
+    border-bottom: outset 1px #fff;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.logo-text:hover:after{
+    transform: scaleX(1);
+}
+
+.discord-nav-icon {
+    width: 32px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.discord-nav-icon:hover {
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+
+nav ul {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff !important;
+    transition: 300ms;
+}
+
+.nav-link:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #fff;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-link:hover:after{
+    transform: scaleX(1);
+}
+
+.nav-item {
+    padding: 0 15px 0 25px;
+}
+
+.text-home {
+    text-align: left;
+}
+
+h1.name {
+    color: transparent;
+    line-height: 90px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-left: -5px;
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    transition: 300ms;
+}
+
+h1.name:hover {
+    cursor: pointer;
+    color: #fff;
+    -webkit-text-stroke: none;
+}
+
+button.btn-portfolio, a.btn-portfolio, span.btn-portfolio {
+  width: 50%!important;
+  font-weight: 700;
+}
+
+button.btn-portfolio:hover, a.btn-portfolio:hover, span.btn-portfolio:hover {
+    background-color: #bbbbbb;
+    border-color: #bbbbbb ;
+  }
+
+h4 {
+    font-family: 'Quicksand';
+    line-height: 100px;
+    margin: 42px 0 0 0!important;
+}
+
+.tech-icon {
+    width: 32px;
+    min-height: 32px;
+    object-fit: contain;
+    margin: 8px 0 0 12px;
+    transition: 300ms;
+}
+
+.tech-icon:hover {
+    transform: scale(0.95);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.bg-dark {
+    background-color: #292b2c !important;
+    color: #fff
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about h1, .projects h1 {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #3f3f3f;
+}
+
+.projects h3 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+@media (max-width: 620px) {
+    .text-home {
+        width: 100vw;
+    }
+}
